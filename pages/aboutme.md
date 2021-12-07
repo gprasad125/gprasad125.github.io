@@ -1,6 +1,6 @@
 ## Hey there!
 
-### About Me
+<center> ### About Me </center>
 
 I'm Gokul Prasad. I'm a 3rd-year Data Science undergraduate at UC San Diego, with experience in Python, R, and SQL.
 I'm originally from San Antonio, TX, although I've come to know San Diego as a second home!

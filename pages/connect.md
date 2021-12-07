@@ -2,7 +2,7 @@
 
 Here, you can find all my contact info!
 
-[Email](<gokulprasad125@gmail.com>)
+[Email](mailto:gokulprasad125@gmail.com)
 
 [LinkedIn](https://www.linkedin.com/in/gokul-prasad/)
 
