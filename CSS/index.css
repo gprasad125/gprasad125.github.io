@@ -15,6 +15,13 @@ div.links {
   margin: 0px;
 }
 
+div.image {
+  height: 300px;
+  overflow: scroll;
+  padding: 0px;
+  margin: 0px;
+}
+
 /* Header Settings */
 
 h1.index {
@@ -22,7 +29,7 @@ h1.index {
   margin-left: 45px;
   float: left;
   font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
-  font-size: 24px;
+  font-size: 36px;
   font-style: normal;
   font-variant: normal;
   font-weight: 300;
@@ -50,4 +57,15 @@ p.index {
   font-variant: normal;
   font-weight: 100;
   line-height: 26.4px;
+}
+
+/* Image Settings */
+
+img.index {
+  transform: rotate(90deg);
+  float: right;
+  border-radius: 25px;
+  margin-right: 45px;
+  width: 400px;
+  height: 250px;
 }
