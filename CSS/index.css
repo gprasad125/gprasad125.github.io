@@ -12,7 +12,10 @@
 
 h1.index {
   text-align: left;
+}
 
+h3.link {
+  text-align: right;
 }
 /* Paragraph Settings */
 
