@@ -5,7 +5,7 @@
 body.welcome {
   padding: 0px;
   margin: 0px;
-  background-color: rgba( 255, 236, 184 , 0.6 );
+  /*background-color: rgba( 255, 236, 184 , 0.6 );*/
 }
 
 div.links {
@@ -13,23 +13,33 @@ div.links {
   overflow: scroll;
   padding: 0px;
   margin: 0px;
+  background-color: rgb(21, 62, 79);
 }
 
-div.bio {
+div.about {
   height: 300px;
   overflow: scroll;
   padding: 0px;
   margin: 0px;
+  background-color: rgb(241, 72, 91)
+}
+
+div.projects {
+  height: 300px;
+  overflow: scroll;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(84, 139, 255)
 }
 
 /* Header Settings */
 
-h1.index {
-  margin-top: 30px;
-  margin-left: 45px;
-  float: left;
+h1.title {
+  margin-top: 70px;
+  text-align: center;
   font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
-  font-size: 36px;
+  color: white;
+  font-size: 80px;
   font-style: normal;
   font-variant: normal;
   font-weight: 300;
@@ -37,16 +47,15 @@ h1.index {
 }
 
 h3.link {
-  margin-top: 30px;
-  margin-right: 45px;
-  float: right;
+  margin-top: 125px;
+  text-align: center;
   font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
-  font-size: 15px;
+  color: white;
+  font-size: 78px;
   font-style: normal;
   font-variant: normal;
   font-weight: 150;
   line-height: 26.4px;
-
 }
 /* Paragraph Settings */
 
@@ -59,12 +68,11 @@ p.index {
   line-height: 26.4px;
 }
 
-p.bio {
-  margin-top: 30px;
-  margin-left: 45px;
-  margin-right: 700px;
-  float: left;
+p.title {
+  margin-top: 80px;
+  text-align: center;
   font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
+  color: white;
   font-size: 15px;
   font-style: normal;
   font-variant: normal;
@@ -85,21 +93,20 @@ img.index {
 
 /* Link Settings */
 a.subset:link, a.subset:visited {
-  border-style: solid;
-  border-color: rgba( 147, 109, 3, 0.6 );
-  color: black;
-  padding: 0px 10px;
+  color: white;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
 }
 
 a.subset:hover {
-  background-color: rgb( 255, 221, 128 );
+  border-style: double;
+  border-radius: 5px;
+  padding: 10px 10px;
+  border-color: white;
 }
 
 a.title:link, a.title:visited,  a.title:hover, a.title:active{
   border-style: none;
-  color: black;
+  color: white;
   text-decoration: none;
 }
