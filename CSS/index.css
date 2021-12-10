@@ -2,32 +2,52 @@
 
 /* Page Coloration */
 
-div.welcome {
-  padding: 0;
-  margin: 0;
-  background-color: rgba(96, 162, 148, 0.6);
+body.welcome {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba( 255, 247, 222, 0.6 );
+}
+
+div.links {
+  height: 300px;
+  overflow: scroll;
+  padding: 0px;
+  margin: 0px;
 }
 
 /* Header Settings */
 
 h1.index {
-  margin-top: 75px;
-  margin-left: 100px;
-  text-align: left;
+  margin-top: 30px;
+  margin-left: 45px;
+  float: left;
+  font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 26.4px;
 }
 
 h3.link {
-  text-align: right;
-  margin-right: 100px;
-  margin-top: 75px;
+  margin-top: 30px;
+  margin-right: 45px;
+  float: right;
+  font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 150;
+  line-height: 26.4px;
+
 }
 /* Paragraph Settings */
 
 p.index {
-  margin-top: 75px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-  text-align: justify;
-  font-family: "Gill Sans", "sans-serif";
+  font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
+  font-size: 15px;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 26.4px;
 }
