@@ -1,9 +1,14 @@
-p {
+p.standard {
   margin-top: 75px;
   margin-bottom: 100px;
   margin-right: 150px;
   margin-left: 80px;
   text-align: justify;
+}
+
+p.about_me_link {
+  margin-left: 80px;
+  text-align: left;
 }
 
 h1 {
