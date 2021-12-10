@@ -1,21 +1,24 @@
-/*
-  About: CSS Settings for my Landing Page
-*/
+/* About: CSS Settings for my Landing Page */
 
 /* Page Coloration */
 
-.welcome {
+div.welcome {
+   margin: 0;
    background-color: rgba(96, 162, 148, 0.6);
 }
 
 /* Header Settings */
 
 h1.index {
+  margin-top: 75px;
+  margin-left: 100px;
   text-align: left;
 }
 
 h3.link {
   text-align: right;
+  margin-right: 100px;
+  margin-top: 75px;
 }
 /* Paragraph Settings */
 
