@@ -1,9 +1,9 @@
 p.standard {
   margin-top: 75px;
-  /* margin-bottom: 100px; */
   margin-right: 150px;
   margin-left: 80px;
   text-align: justify;
+  font-family: "Gill Sans", "sans-serif";
 }
 
 p.about_me_link {
