@@ -1,0 +1,26 @@
+/*
+  About: CSS Settings for my Landing Page
+*/
+
+/* Page Coloration */
+
+.welcome {
+   background-color: rgba(96, 162, 148, 0.6);
+}
+
+/* Header Settings */
+
+h1.index {
+  text-align: left;
+
+}
+/* Paragraph Settings */
+
+p.index {
+  margin-top: 75px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  text-align: justify;
+  font-family: "Gill Sans", "sans-serif";
+}
