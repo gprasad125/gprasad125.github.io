@@ -1,21 +1,14 @@
-/* About: CSS Settings for my Landing Page */
+/* About: CSS Settings for my About Me Page */
 
 /* Page Coloration */
 
-body.welcome {
+body.aboutme {
   padding: 0px;
   margin: 0px;
   background-color: rgba( 255, 236, 184 , 0.6 );
 }
 
 div.links {
-  height: 300px;
-  overflow: scroll;
-  padding: 0px;
-  margin: 0px;
-}
-
-div.bio {
   height: 300px;
   overflow: scroll;
   padding: 0px;
@@ -47,40 +40,6 @@ h3.link {
   font-weight: 150;
   line-height: 26.4px;
 
-}
-/* Paragraph Settings */
-
-p.index {
-  font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
-  font-size: 15px;
-  font-style: italic;
-  font-variant: normal;
-  font-weight: 100;
-  line-height: 26.4px;
-}
-
-p.bio {
-  margin-top: 30px;
-  margin-left: 45px;
-  margin-right: 700px;
-  float: left;
-  font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
-  font-size: 15px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 85;
-  line-height: 26.4px;
-}
-
-/* Image Settings */
-
-img.index {
-  transform: rotate(90deg);
-  float: right;
-  border-radius: 25px;
-  margin-right: 45px;
-  width: 400px;
-  height: 250px;
 }
 
 /* Link Settings */
