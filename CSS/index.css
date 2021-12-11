@@ -13,7 +13,7 @@ div.links {
   overflow: scroll;
   padding: 0px;
   margin: 0px;
-  background-color: rgb(21, 62, 79);
+  background-color: #f8b195;
 }
 
 div.about {
@@ -21,7 +21,7 @@ div.about {
   overflow: scroll;
   padding: 0px;
   margin: 0px;
-  background-color: rgb(241, 72, 91)
+  background-color: #f67280;
 }
 
 div.projects {
@@ -29,13 +29,29 @@ div.projects {
   overflow: scroll;
   padding: 0px;
   margin: 0px;
-  background-color: rgb(84, 139, 255)
+  background-color: #c06c84;
+}
+
+div.references {
+  height: 300px;
+  overflow: scroll;
+  padding: 0px;
+  margin: 0px;
+  background-color: #6c5b7b;
+}
+
+div.connect {
+  height: 300px;
+  overflow: scroll;
+  padding: 0px;
+  margin: 0px;
+  background-color: #355c7d;
 }
 
 /* Header Settings */
 
 h1.title {
-  margin-top: 70px;
+  margin-top: 85px;
   text-align: center;
   font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
   color: white;
