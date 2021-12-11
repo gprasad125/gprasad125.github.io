@@ -5,20 +5,35 @@
 body.aboutme {
   padding: 0px;
   margin: 0px;
-  background-color: rgba(92, 115, 184, 0.6 );
 }
 
 div.links {
-  height: 1000px;
+  height: 150px;
   overflow: scroll;
   padding: 0px;
   margin: 0px;
+  background-color: rgba(92, 115, 184, 0.6);
 }
 
+div.bio {
+  height: 300px;
+  overflow: scroll;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba(92, 115, 184, 0.8);
+}
+
+div.skills {
+  height: 350px;
+  overflow: scroll;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba(92, 115, 184, 1);
+}
 /* Header Settings */
 
 h1.index {
-  margin-top: 30px;
+  margin-top: 45px;
   margin-left: 45px;
   float: left;
   font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
@@ -31,7 +46,7 @@ h1.index {
 }
 
 h3.link {
-  margin-top: 30px;
+  margin-top: 45px;
   margin-right: 45px;
   float: right;
   font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
@@ -46,13 +61,13 @@ h3.link {
 
 /* Paragraph Settings */
 p.aboutme {
-  margin-top: 150px;
+  margin-top: 55px;
   margin-left: 45px;
-  margin-right: 950px;
+  margin-right: 600px;
   text-align: center;
   font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-variant: normal;
   font-weight: 85;
@@ -61,17 +76,15 @@ p.aboutme {
 
 /* Link Settings */
 a.subset:link, a.subset:visited {
-  border-style: solid;
-  border-color: rgb(51, 81, 171);
   color: white;
-  padding: 0px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 
 a.subset:hover {
-  background-color: rgb(69, 109, 230);
+  font-size: 24px;
+  color: rgb(69, 109, 230);
 }
 
 a.title:link, a.title:visited,  a.title:hover, a.title:active{
