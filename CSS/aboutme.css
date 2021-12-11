@@ -5,11 +5,11 @@
 body.aboutme {
   padding: 0px;
   margin: 0px;
-  background-color: rgba( 255, 236, 184 , 0.6 );
+  background-color: rgba(92, 115, 184, 0.6 );
 }
 
 div.links {
-  height: 300px;
+  height: 1000px;
   overflow: scroll;
   padding: 0px;
   margin: 0px;
@@ -22,6 +22,7 @@ h1.index {
   margin-left: 45px;
   float: left;
   font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
+  color: white;
   font-size: 36px;
   font-style: normal;
   font-variant: normal;
@@ -34,6 +35,7 @@ h3.link {
   margin-right: 45px;
   float: right;
   font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
+  color: white;
   font-size: 15px;
   font-style: normal;
   font-variant: normal;
@@ -42,11 +44,26 @@ h3.link {
 
 }
 
+/* Paragraph Settings */
+p.aboutme {
+  margin-top: 150px;
+  margin-left: 45px;
+  margin-right: 950px;
+  text-align: center;
+  font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 85;
+  line-height: 26.4px;
+}
+
 /* Link Settings */
 a.subset:link, a.subset:visited {
   border-style: solid;
-  border-color: rgba( 147, 109, 3, 0.6 );
-  color: black;
+  border-color: rgb(51, 81, 171);
+  color: white;
   padding: 0px 10px;
   text-align: center;
   text-decoration: none;
@@ -54,11 +71,11 @@ a.subset:link, a.subset:visited {
 }
 
 a.subset:hover {
-  background-color: rgb( 255, 221, 128 );
+  background-color: rgb(69, 109, 230);
 }
 
 a.title:link, a.title:visited,  a.title:hover, a.title:active{
   border-style: none;
-  color: black;
+  color: white;
   text-decoration: none;
 }
