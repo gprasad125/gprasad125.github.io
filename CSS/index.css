@@ -10,7 +10,7 @@ body.welcome {
 
 div.links {
   height: 300px;
-  overflow: scroll;
+  overflow: hidden;
   padding: 0px;
   margin: 0px;
   background-color: #f8b195;
@@ -18,15 +18,15 @@ div.links {
 
 div.about {
   height: 300px;
-  overflow: scroll;
+  overflow: hidden;
   padding: 0px;
   margin: 0px;
-  background-color: #f67280;
+  background-color: rgba(246, 114, 128, 0.7);
 }
 
 div.projects {
   height: 300px;
-  overflow: scroll;
+  overflow: hidden;
   padding: 0px;
   margin: 0px;
   background-color: #c06c84;
@@ -34,7 +34,7 @@ div.projects {
 
 div.references {
   height: 300px;
-  overflow: scroll;
+  overflow: hidden;
   padding: 0px;
   margin: 0px;
   background-color: #6c5b7b;
@@ -42,7 +42,7 @@ div.references {
 
 div.connect {
   height: 300px;
-  overflow: scroll;
+  overflow: hidden;
   padding: 0px;
   margin: 0px;
   background-color: #355c7d;

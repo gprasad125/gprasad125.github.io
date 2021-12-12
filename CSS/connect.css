@@ -9,35 +9,37 @@ body.connect {
 
 div.links {
   height: 150px;
-  overflow: scroll;
+  overflow: hidden;
   padding: 0px;
   margin: 0px;
   background-color: #5d5c61;
 }
 
 div.email {
-  height: 250px;
-  overflow: scroll;
+  height: 270px;
+  overflow: hidden;
   padding: 0px;
   margin: 0px;
   background-color: #7395ae;
 }
 
+div.github {
+  height: 270px;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  background-color: #b1a296;
+}
+
 div.linkedin {
-  height: 150px;
-  overflow: scroll;
+  height: 260px;
+  overflow: hidden;
   padding: 0px;
   margin: 0px;
   background-color: #557a95;
 }
 
-div.github {
-  height: 150px;
-  overflow: scroll;
-  padding: 0px;
-  margin: 0px;
-  background-color: #b1a296;
-}
+
 
 /* Header Settings */
 
@@ -68,7 +70,7 @@ h3.link {
 }
 
 h1.social {
-  margin-top: 80px;
+  margin-top: 100px;
   text-align: center;
   font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
   color: white;
