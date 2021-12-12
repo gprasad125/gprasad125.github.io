@@ -2,7 +2,7 @@
 
 /* Page Coloration */
 
-body.aboutme {
+body.connect {
   padding: 0px;
   margin: 0px;
 }
@@ -12,24 +12,33 @@ div.links {
   overflow: scroll;
   padding: 0px;
   margin: 0px;
-  background-color: rgba(92, 115, 184, 0.6);
+  background-color: #5d5c61;
 }
 
-div.bio {
-  height: 350px;
+div.email {
+  height: 250px;
   overflow: scroll;
   padding: 0px;
   margin: 0px;
-  background-color: rgba(92, 115, 184, 0.8);
+  background-color: #7395ae;
 }
 
-div.skills {
-  height: 350px;
+div.linkedin {
+  height: 150px;
   overflow: scroll;
   padding: 0px;
   margin: 0px;
-  background-color: rgba(92, 115, 184, 1);
+  background-color: #557a95;
 }
+
+div.github {
+  height: 150px;
+  overflow: scroll;
+  padding: 0px;
+  margin: 0px;
+  background-color: #b1a296;
+}
+
 /* Header Settings */
 
 h1.index {
@@ -56,21 +65,17 @@ h3.link {
   font-variant: normal;
   font-weight: 150;
   line-height: 26.4px;
-
 }
 
-/* Paragraph Settings */
-p.aboutme {
-  margin-top: 100px;
-  margin-left: 45px;
-  margin-right: 600px;
+h1.social {
+  margin-top: 80px;
   text-align: center;
   font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
   color: white;
-  font-size: 20px;
+  font-size: 48px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 85;
+  font-weight: 300;
   line-height: 26.4px;
 }
 
@@ -93,8 +98,15 @@ a.title:link, a.title:visited,  a.title:hover, a.title:active{
   text-decoration: none;
 }
 
-a.bio:link, a.bio:visited,  a.bio:hover, a.bio:active{
-  border-style: none;
+a.social:link, a.social:visited, a.social:active {
   color: white;
-  text-decoration: underline;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.social:hover {
+  border-style: double;
+  border-radius: 5px;
+  padding: 10px 10px;
+  border-color: white;
 }
