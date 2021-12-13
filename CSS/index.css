@@ -13,7 +13,7 @@ div.links {
   overflow: hidden;
   padding: 0px;
   margin: 0px;
-  background-color: #f8b195;
+  background-color: #ff3366;
 }
 
 div.about {
@@ -21,7 +21,7 @@ div.about {
   overflow: hidden;
   padding: 0px;
   margin: 0px;
-  background-color: rgba(246, 114, 128, 0.7);
+  background-color: #495867;
 }
 
 div.projects {
@@ -29,7 +29,7 @@ div.projects {
   overflow: hidden;
   padding: 0px;
   margin: 0px;
-  background-color: #c06c84;
+  background-color: #577399;
 }
 
 div.references {
@@ -37,7 +37,7 @@ div.references {
   overflow: hidden;
   padding: 0px;
   margin: 0px;
-  background-color: #6c5b7b;
+  background-color: #bdd5ea;
 }
 
 div.connect {
@@ -45,7 +45,7 @@ div.connect {
   overflow: hidden;
   padding: 0px;
   margin: 0px;
-  background-color: #355c7d;
+  background-color: #87878c;
 }
 
 /* Header Settings */

@@ -17,10 +17,13 @@ div.links {
 
 div.bio {
   height: 350px;
-  overflow: hidden;
+  overflow: scroll;
+  scrollbar-width: none;
   padding: 0px;
   margin: 0px;
   background-color: rgba(92, 115, 184, 0.8);
+  display: flex;
+  align-items: normal;
 }
 
 div.skills {
@@ -97,4 +100,15 @@ a.bio:link, a.bio:visited,  a.bio:hover, a.bio:active{
   border-style: none;
   color: white;
   text-decoration: underline;
+}
+
+/* Image Settings */
+img.me {
+  margin-top: 80px;
+  margin-right: 45px;
+  float: right;
+  border-radius: 30px;
+  height: 250px;
+  width: 40%;
+  display: inline-block;
 }
