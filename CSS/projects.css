@@ -39,3 +39,9 @@ h1.title {
   font-weight: 300;
   line-height: 26.4px;
 }
+
+a.title:link, a.title:visited,  a.title:hover, a.title:active{
+  border-style: none;
+  color: white;
+  text-decoration: none;
+}
