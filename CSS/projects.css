@@ -1,0 +1,41 @@
+body.projects {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba( 255, 236, 184 , 0.6 );
+}
+
+div.goals {
+  height: 300px;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  background-color: #9c1f3e;
+}
+
+div.eda {
+  height: 300px;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  background-color: #495867;
+}
+
+div.modelling {
+  height: 300px;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  background-color: #577399;
+}
+
+h1.title {
+  margin-top: 150px;
+  text-align: center;
+  font-family: "Futura", "Trebuchet MS", "Arial", "sans-serif";
+  color: white;
+  font-size: 65px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 26.4px;
+}
