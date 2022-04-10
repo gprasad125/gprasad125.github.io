@@ -4,12 +4,20 @@ body.projects {
   background-color: rgba( 255, 236, 184 , 0.6 );
 }
 
+div.about {
+  height: 300px;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  background-color: #d72631;
+}
+
 div.goals {
   height: 300px;
   overflow: hidden;
   padding: 0px;
   margin: 0px;
-  background-color: #9c1f3e;
+  background-color: #54b096;
 }
 
 div.eda {
@@ -17,7 +25,7 @@ div.eda {
   overflow: hidden;
   padding: 0px;
   margin: 0px;
-  background-color: #495867;
+  background-color: #077b8a;
 }
 
 div.modelling {
@@ -25,7 +33,7 @@ div.modelling {
   overflow: hidden;
   padding: 0px;
   margin: 0px;
-  background-color: #577399;
+  background-color: #5c3c92;
 }
 
 h1.title {
