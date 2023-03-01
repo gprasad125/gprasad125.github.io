@@ -233,39 +233,25 @@
                             <h5 class="subheading">Starting the Process</h5>
                         </div>
                         <div class="timeline-body">
+
                             <p class="text-muted">
-                                Relevance
-                            <ul class="text-muted">
-                                <li>There was no in-context learning</li>
-                                <li>We used a very simple definition of "relevance"</li>
-                                <li>Ran on samples of 100 Tweets</li>
-                            </ul>
+                                Initially, both prompts started with very simplistic formats. No in-context learning was used, and fairly simplistic definitions of terms like 'relevance', 'positive', 'neutral', and 'negative' were used. Because each Tweet required its own API call to the OpenAI GPT-3 API, the prompts were run on samples of 100 Tweets at a time rather than the whole dataset. 
                             </p>
-                            <p class="text-muted">
-                                    Sentiment
-                            <ul class="text-muted">
-                                <li>There was no in-context learning</li>
-                                <li>Prompted the model to classify a Tweet's sentiment toward China in negative, neutral, or positive.</li>
-                                <li>Ran on samples of 30 Tweets, 10 Tweets per sentiment category</li>
-                            </ul>
-                            </p>
-                            </p>
+                            
                         </div>
                     </div>
                 </li>
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg"
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/handyman.png"
                             alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h3>Prmopt Engineering</h3>
+                            <h3>Prompt Engineering</h3>
                             <h5 class="subheading">Improving Classification</h5>
                         </div>
                         <div class="timeline-body">
                             <p class="text-muted">
-                                Sentiment
-                                <ul class="text-muted">
-                                    <li>For each sentiment category, added one example Tweet, its expected answer and reason for the answer to the prompt.</li>
+                                In order to improve the results from the model, further prompt tuning was required. Both prompts pursued 'few-shot' learning, where the prompt itself provides example inputs, outputs, and reasonings. These included randomly selected Tweets as well as 'pain-point' examples that highlighted where the model consistently struggled.
                             </p>
                         </div>
                     </div>
