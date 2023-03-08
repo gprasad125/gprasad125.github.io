@@ -8,7 +8,7 @@
     <meta name="author" content="" />
     <title>DSC180B Final Project</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -115,7 +115,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/relevance.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/eda/relevance.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Relevance Distribution</div>
@@ -129,28 +129,27 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/sentiment.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/eda/sentiment.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Sentiment Distribution</div>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-4 col-sm-6 mb-4"> -->
-                    <!-- Portfolio item 3-->
-                    <!-- <div class="portfolio-item">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 3 -->
+                    <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/eda/sentiment_by_time.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Finish</div>
-                            <div class="portfolio-caption-subheading text-muted">Identity</div>
+                            <div class="portfolio-caption-heading">Sentiment Over Time</div>
                         </div>
-                    </div> -->
-                <!-- </div> -->
+                    </div>
+                </div>
                 <!-- <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0"> -->
                     <!-- Portfolio item 4-->
                     <!-- <div class="portfolio-item">
@@ -296,7 +295,7 @@
     </section>
 
     <!-- Results-->
-    <section class="page-section" id="results">
+    <section class="page-section bg-light" id="results">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Results</h2>
@@ -322,10 +321,36 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <h4 class="my-3">Relevance</h4>
+
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-screwdriver-wrench fa-stack-1x fa-inverse"></i>
+                    </span>
+
+                    <h4 class="my-3">Our Project</h4>
+                    <p>
+
+                        The application of LLMs to this particular topic generated measures that fell short of our expectations, and of our Quarter 1 results. Despite continuous engineering of the prompt, we were not able to match our original statistics; however, the process of using an LLM like GPT-3 revealed clearly that these tools definitely have their place in this field. 
+
+                        In conversing with the UCSD China Data Lab over the course of the last 10 weeks, our work has been helpful in determining whether they will move forward with using LLMs throughout the future stages of their Twitter analysis projects.
+
+                    </p>
                 </div>
                 <div class="col-md-4">
-                    <h4 class="my-3">Sentiment</h4>
+
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-wand-magic-sparkles fa-stack-1x fa-inverse"></i>
+                    </span>
+
+                    <h4 class="my-3">Future</h4>
+                    <p> 
+
+                        Large Language Models are undoubtedly the future of language modeling and analysis. Their incredible power, ease-of-use, and high quality outputs put them far ahead of any other traditional NLP methodology. However, that does not mean simply tossing out what's been done before and trusting GPT-3 to always get the solution. As our project shows, GPT-3 is not always ready to bridge the gap resulting from natural differences in human interpretation and context.
+
+                        Subject matter expertise and domain knowledge are and will remain absolutely key to getting the best out of these models. 
+
+                    </p>
                 </div>
             </div>
         </div>
@@ -340,7 +365,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="team-member">
-                        <!-- <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." /> -->
+                        <img class="mx-auto rounded-circle" src="assets/img/team/gokul.jpg" alt="..." />
                         <h4>Gokul Prasad</h4>
                         <p class="text-muted">UCSD '23, Data Science</p>
                         <a class="btn btn-dark btn-social mx-2" href="https://github.com/gprasad125"
@@ -413,9 +438,11 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Relevance</h2>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/relevance.png" alt="..." />
-                                <p> The figure shows the distribution of relevant and inrelevant Tweets about China in the original dataset.</p>
+                                <h2 class="text-uppercase">Relevance Distribution</h2>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/eda/relevance.png" alt="..." />
+                                <p> 
+                                    The figure shows the distribution of relevant and irrelevant Tweets about China in the original dataset. The number of 'Relevant' tweets (demarcated 'True') is over twice the number of 'Irrelevant' Tweets, reflecting a class imbalance. 
+                                </p>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
@@ -439,11 +466,10 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/sentiment.png" alt="..." />
-                                <p>The figure shows the distribution of sentiment scores toward China in the original dataset.
-                                    The sentiment scores are in range from 1 to 5 (1 = very negative, 3 = neutral, 5 = very positive).
-                                    Tweets with sentiment score 0 and 6 are outrliers. 
+                                <h2 class="text-uppercase">Sentiment Distribution</h2>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/eda/sentiment.png" alt="..." />
+                                <p>
+                                    The figure shows the distribution of sentiment scores toward China in the original dataset. The sentiment scores are in range from 1 to 5 (1 = very negative, 3 = neutral, 5 = very positive). Tweets with sentiment score 0 and 6 are outliers. We can see that negative Tweets, scoring < 3 are represented far more than Tweets that score more positive. 
                                 </p>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
@@ -468,27 +494,16 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Finish
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Identity
-                                    </li>
-                                </ul>
+                                <h2 class="text-uppercase">Sentiment Over Time</h2>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/eda/sentiment_by_time.png" alt="..." />
+                                <p>
+                                    This plot shows how the general sentiment towards China has varied across the time period in the data (2010-20) by party. Most notably, it is nearly consistently negative, with the Democrats in 2015 having the highest average sentiment still falling below 3.0. This also helps to explain why negative Tweets dominate the dataset. 
+                                </p>
+                                
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
-                                    Close Project
+                                    Close
                                 </button>
                             </div>
                         </div>
@@ -555,20 +570,10 @@
                                     adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
                                     nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Southwest
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Website Design
-                                    </li>
-                                </ul>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
-                                    Close Project
+                                    Close 
                                 </button>
                             </div>
                         </div>
