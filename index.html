@@ -35,6 +35,7 @@
                     <li class="nav-item"><a class="nav-link" href="#about">Methods</a></li>
                     <li class="nav-item"><a class="nav-link" href="#results">Results</a></li>
                     <li class="nav-item"><a class="nav-link" href="#discussion">Discussion</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                 </ul>
             </div>
         </div>
@@ -206,8 +207,7 @@
             </div>
             <ul class="timeline">
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/openai.png"
-                            alt="..." /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/openai.png" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
                             <h3>Model Selection</h3>
@@ -262,9 +262,7 @@
                             <h3>Comparing to Quarter 1 Results</h3>
                             <h5 class="subheading">Evaluate Applicability of GPT-3 Models</h5>
                             <p class="text-muted">
-                                To assess if GPT-3 improved classification performance from the team's results in quarter 1,
-                                we compared the GPT-3's performance in classifying Tweet relevance with the Naive Bayes Classifer from
-                                quarter 1 and compared the GPT-3's performance in evalutaing sentiment with a Random Forest Classifer.
+                                To assess if GPT-3 improved classification performance from the team's results in quarter 1, we compared the GPT-3's performance in classifying Tweet relevance with the Naive Bayes Classifer from quarter 1 and compared the GPT-3's performance in evalutaing sentiment with a Random Forest Classifer.
                             </p>
                         </div>
                         <div class="timeline-body">
@@ -273,25 +271,20 @@
                     </div>
                 </li>
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/twitter.webp"
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/twitter.png"
                             alt="..." /></div>
-                    <div class="timeline-panel">
+                            <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h3>Final Work</h3>
-                            <h3 class="subheading">Transition to Full Service</h3>
+                            <h3>Evaluate and Wrapping Up</h3>
+                            <h5 class="subheading"> Into the Future </h5>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted"></p>
+                            <p class="text-muted">
+
+                                After running through prompt engineering, sampling, and evaluating several times, the last step of the project was to communicate our findings and results with our mentors from the China Data Lab, and deciding what role GPT-3 can have in the future of the 'Congress Tweets' project. 
+
+                            </p>
                         </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image">
-                        <h4>
-                            <br />
-                            Final Product
-                            <br />
-                        </h4>
                     </div>
                 </li>
             </ul>
@@ -305,21 +298,16 @@
                 <h2 class="section-heading text-uppercase">Results</h2>
                 <h3 class="section-subheading text-muted">What did we find in this project?</h3>
             </div>
-            <div class="row">
+            <div>
                 <h3> Relevance </h3>
-                <table>
-                    <tr>
-                        <th> Model </th>
-                        <th> Accuracy </th>
-                    </tr>
+                <p class = 'text-muted'>
 
-                    <tr>
-                        <td> GPT-3 davinci </td>
-                        <td> 0.75 </td>
+                    The utilization of GPT-3 provided accuracies that fell well short of last quarter's results. Even after extensive prompt engineering, the peak accuracy achieved by the model was ~ 75%, while the Naive Bayes classifier regularly reached > 90%. Below is an example confusion matrix generated during experimentation, revealing a common weak point of the model. Specifically, Tweets that the human encoder thought were irrelevant were often considered relevant by the model. 
 
-                    </tr>
-
-                </table>
+                    <br>
+                    <div class = 'text-center'> <img src = 'assets/img/result/cm_relevance.png' height = 500 width="700"/> </div>
+                    
+                </p>
             </div>
             <br>
             <div class="row">
@@ -366,6 +354,7 @@
 
                     </p>
                 </div>
+
                 <div class="col-md-4">
 
                     <span class="fa-stack fa-4x">
@@ -373,7 +362,24 @@
                         <i class="fas fa-wand-magic-sparkles fa-stack-1x fa-inverse"></i>
                     </span>
 
-                    <h4 class="my-3">Future</h4>
+                    <h4 class="my-3">Limitations & Future </h4>
+                    <p class="text-muted">
+
+                        Looking at the overall performance of the GPT-3 language models, and even at the supervised ML pathways from earlier, it's easy to see that this is a difficult task no matter what tools we use. Human interpretation of text is so influenced by preexisting biases, contexts, and other factors that cannot be modeled, and the strange Internet-affected language of Twitter only contributes to this further. 
+
+                        Because of LLMs' ability to comprehend text in its own context, outside the purview of 'trainign data', it is worth considering shifting away from a simple classification & sentiment analysis, and to utilize the full power of these models for deeper textual analysis. 
+
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-comments fa-stack-1x fa-inverse"></i>
+                    </span>
+
+                    <h4 class="my-3">The Models</h4>
                     <p class="text-muted"> 
 
                         Large Language Models are undoubtedly the future of language modeling and analysis. Their incredible power, ease-of-use, and high quality outputs put them far ahead of any other traditional NLP methodology. However, that does not mean simply tossing out what's been done before and trusting GPT-3 to always get the solution. As our project shows, GPT-3 is not always ready to bridge the gap resulting from natural differences in human interpretation and context.
@@ -391,9 +397,10 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Our Team</h2>
+                <h3 class="section-subheading text-muted">Meet our Team!</h3>
             </div>
-            <div class="row">
-                <div class="col-lg-4">
+            <div class = 'flex-container'>
+                <div class="flex-item">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/team/gokul.jpg" alt="..." />
                         <h4>Gokul Prasad</h4>
@@ -404,7 +411,7 @@
                             aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="flex-item">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/team/annie.jpg" alt="..." />
                         <h4>Annie Fan</h4>
@@ -413,34 +420,21 @@
                             aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4">
+            </div>
+            <div class = 'flex-container'>
+                <div class="flex-item">
                     <div class="team-member">
-                        <!-- <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." /> -->
+                        <img class="mx-auto rounded-circle" src="assets/img/team/roberts.jpeg" alt="..." />
                         <h4>Dr. Margaret Roberts</h4>
                         <p class="text-muted">Project Mentor</p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i
-                                class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-
-                
-            </div>
-
-            <div class="col-lg-4 align-items-center">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="assets/img/team/young.png" alt="..." />
-                    <h4>Dr. Young Yang</h4>
-                    <p class="text-muted">Advisor from China Data Lab</p>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i
-                            class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i
-                            class="fab fa-linkedin-in"></i></a>
+                <div class="flex-item">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/young.png" alt="..." />
+                        <h4>Dr. Young Yang</h4>
+                        <p class="text-muted">Advisor from China Data Lab</p>
+                    </div>
                 </div>
             </div>
         </div>
