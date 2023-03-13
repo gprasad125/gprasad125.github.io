@@ -255,12 +255,17 @@
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg"
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/sklearn.png"
                             alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
                             <h3>Comparing to Quarter 1 Results</h3>
-                            <h5 class="subheading">Access Usuability of GPT-3 Models</h5>
+                            <h5 class="subheading">Evaluate Applicability of GPT-3 Models</h5>
+                            <p class="text-muted">
+                                To assess if GPT-3 improved classification performance from the team's results in quarter 1,
+                                we compared the GPT-3's performance in classifying Tweet relevance with the Naive Bayes Classifer from
+                                quarter 1 and compared the GPT-3's performance in evalutaing sentiment with a Random Forest Classifer.
+                            </p>
                         </div>
                         <div class="timeline-body">
                             <p class="text-muted"></p>
@@ -268,7 +273,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg"
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/twitter.webp"
                             alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -316,6 +321,24 @@
 
                 </table>
             </div>
+            <br>
+            <div class="row">
+                <h3> Sentiment </h3>
+                    </tr>
+                </table>
+                <!-- <img src="assets/img/result/cm_normalized.png" class="'cm_plot" alt="..." /> -->
+                <p class="text-muted">
+                In each training trail, GPT-3 Davinci model was applied to a sample of 100-200 Tweets.
+                 GPT-3 achieved between 60% and 70% accuracy each trail in classifying Tweet sentiments. Shown 
+                 in the confusion matrix below, GPT-3 performed best in classifying Tweets with positive sentiment
+                 but struggled in distinguishing neutral Tweets with positive and negative Tweets. Compared to the Random Forest Classifier, 
+                 which achieved approximately 55% accuracy, GPT-3 had higher accuracy in classifying all sentiment classes.
+                 <br>
+                 <img src="assets/img/result/cm_normalized_s.png" alt="...">
+                 <img src="assets/img/result/cm_normalized_s_ml.png" alt="...">
+
+                </p>
+            </div>
         </div>
     </section>
 
@@ -337,7 +360,7 @@
                     <h4 class="my-3">Our Project</h4>
                     <p class="text-muted">
 
-                        The application of LLMs to this particular topic generated measures that fell short of our expectations, and of our Quarter 1 results. Despite continuous engineering of the prompt, we were not able to match our original statistics; however, the process of using an LLM like GPT-3 revealed clearly that these tools definitely have their place in this field. 
+                        The application of LLMs to this particular topic generated measures that fell short of our expectations, and of our Quarter 1 results. Despite continuous engineering of the prompt, we were not able to match our original statistics in classifying relevance nor achieve high accuracy in classifying sentiment; however, the process of using an LLM like GPT-3 revealed clearly that these tools definitely have their place in this field. 
 
                         In conversing with the UCSD China Data Lab over the course of the last 10 weeks, our work has been helpful in determining whether they will move forward with using LLMs throughout the future stages of their Twitter analysis projects.
 
