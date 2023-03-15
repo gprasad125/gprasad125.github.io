@@ -35,6 +35,7 @@
                     <li class="nav-item"><a class="nav-link" href="#about">Methods</a></li>
                     <li class="nav-item"><a class="nav-link" href="#results">Results</a></li>
                     <li class="nav-item"><a class="nav-link" href="#discussion">Discussion</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#material">Project Material</a></li>
                     <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                 </ul>
             </div>
@@ -166,8 +167,8 @@
                     </div>
                 </div>
                 <!-- <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0"> -->
-                    <!-- Portfolio item 5-->
-                    <!-- <div class="portfolio-item">
+                <!-- Portfolio item 5-->
+                <!-- <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
@@ -181,8 +182,8 @@
                     </div> -->
                 <!-- </div> -->
                 <!-- <div class="col-lg-4 col-sm-6"> -->
-                    <!-- Portfolio item 6-->
-                    <!-- <div class="portfolio-item">
+                <!-- Portfolio item 6-->
+                <!-- <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
@@ -207,7 +208,8 @@
             </div>
             <ul class="timeline">
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/openai.png" alt="..." /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/openai.png"
+                            alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
                             <h3>Model Selection</h3>
@@ -233,15 +235,19 @@
                         <div class="timeline-body">
 
                             <p class="text-muted">
-                                Initially, both prompts started with very simplistic formats. No in-context learning was used, and fairly simplistic definitions of terms like 'relevance', 'positive', 'neutral', and 'negative' were used. Because each Tweet required its own API call to the OpenAI GPT-3 API, the prompts were run on samples of 100 Tweets at a time rather than the whole dataset. 
+                                Initially, both prompts started with very simplistic formats. No in-context learning was
+                                used, and fairly simplistic definitions of terms like 'relevance', 'positive',
+                                'neutral', and 'negative' were used. Because each Tweet required its own API call to the
+                                OpenAI GPT-3 API, the prompts were run on samples of 100 Tweets at a time rather than
+                                the whole dataset.
                             </p>
-                            
+
                         </div>
                     </div>
                 </li>
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/handyman.png"
-                            alt="..." /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid"
+                            src="assets/img/about/handyman.png" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
                             <h3>Prompt Engineering</h3>
@@ -249,7 +255,10 @@
                         </div>
                         <div class="timeline-body">
                             <p class="text-muted">
-                                In order to improve the results from the model, further prompt tuning was required. Both prompts pursued 'few-shot' learning, where the prompt itself provides example inputs, outputs, and reasonings. These included randomly selected Tweets as well as 'pain-point' examples that highlighted where the model consistently struggled.
+                                In order to improve the results from the model, further prompt tuning was required. Both
+                                prompts pursued 'few-shot' learning, where the prompt itself provides example inputs,
+                                outputs, and reasonings. These included randomly selected Tweets as well as 'pain-point'
+                                examples that highlighted where the model consistently struggled.
                             </p>
                         </div>
                     </div>
@@ -262,7 +271,10 @@
                             <h3>Comparing to Quarter 1 Results</h3>
                             <h5 class="subheading">Evaluate Applicability of GPT-3 Models</h5>
                             <p class="text-muted">
-                                To assess if GPT-3 improved classification performance from the team's results in quarter 1, we compared the GPT-3's performance in classifying Tweet relevance with the Naive Bayes Classifer from quarter 1 and compared the GPT-3's performance in evalutaing sentiment with a Random Forest Classifer.
+                                To assess if GPT-3 improved classification performance from the team's results in
+                                quarter 1, we compared the GPT-3's performance in classifying Tweet relevance with the
+                                Naive Bayes Classifer from quarter 1 and compared the GPT-3's performance in evalutaing
+                                sentiment with a Random Forest Classifer.
                             </p>
                         </div>
                         <div class="timeline-body">
@@ -273,7 +285,7 @@
                 <li>
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/twitter.png"
                             alt="..." /></div>
-                            <div class="timeline-panel">
+                    <div class="timeline-panel">
                         <div class="timeline-heading">
                             <h3>Evaluate and Wrapping Up</h3>
                             <h5 class="subheading"> Into the Future </h5>
@@ -281,7 +293,10 @@
                         <div class="timeline-body">
                             <p class="text-muted">
 
-                                After running through prompt engineering, sampling, and evaluating several times, the last step of the project was to communicate our findings and results with our mentors from the China Data Lab, and deciding what role GPT-3 can have in the future of the 'Congress Tweets' project. 
+                                After running through prompt engineering, sampling, and evaluating several times, the
+                                last step of the project was to communicate our findings and results with our mentors
+                                from the China Data Lab, and deciding what role GPT-3 can have in the future of the
+                                'Congress Tweets' project.
 
                             </p>
                         </div>
@@ -300,38 +315,44 @@
             </div>
             <div>
                 <h3> Relevance </h3>
-                <p class = 'text-muted'>
+                <p class='text-muted'>
 
-                    The utilization of GPT-3 provided accuracies that fell well short of last quarter's results. Even after extensive prompt engineering, the peak accuracy achieved by the model was ~ 75%, while the Naive Bayes classifier regularly reached > 90%. Below is an example confusion matrix generated during experimentation, revealing a common weak point of the model. Specifically, Tweets that the human encoder thought were irrelevant were often considered relevant by the model. 
+                    The utilization of GPT-3 provided accuracies that fell well short of last quarter's results. Even
+                    after extensive prompt engineering, the peak accuracy achieved by the model was ~ 75%, while the
+                    Naive Bayes classifier regularly reached > 90%. Below is an example confusion matrix generated
+                    during experimentation, revealing a common weak point of the model. Specifically, Tweets that the
+                    human encoder thought were irrelevant were often considered relevant by the model.
 
                     <br>
-                    <div class = 'text-center'> <img src = 'assets/img/result/cm_relevance.png' height = 500 width="700"/> </div>
-                    
+                <div class='text-center'> <img src='assets/img/result/cm_relevance.png' height=500 width="700" /> </div>
+
                 </p>
             </div>
             <br>
             <div class="row">
                 <h3> Sentiment </h3>
-                    </tr>
+                </tr>
                 </table>
                 <!-- <img src="assets/img/result/cm_normalized.png" class="'cm_plot" alt="..." /> -->
                 <p class="text-muted">
-                In each training trail, GPT-3 Davinci model was applied to a sample of 100-200 Tweets.
-                 GPT-3 achieved between 60% and 70% accuracy each trail in classifying Tweet sentiments. Shown 
-                 in the confusion matrix below, GPT-3 performed best in classifying Tweets with positive sentiment
-                 but struggled in distinguishing neutral Tweets with positive and negative Tweets. Compared to the Random Forest Classifier, 
-                 which achieved approximately 55% accuracy, GPT-3 had higher accuracy in classifying all sentiment classes.
-                 <br>
-                 <img src="assets/img/result/cm_normalized_s.png" alt="...">
-                 <img src="assets/img/result/cm_normalized_s_ml.png" alt="...">
+                    In each training trail, GPT-3 Davinci model was applied to a sample of 100-200 Tweets.
+                    GPT-3 achieved between 60% and 70% accuracy each trail in classifying Tweet sentiments. Shown
+                    in the confusion matrix below, GPT-3 performed best in classifying Tweets with positive sentiment
+                    but struggled in distinguishing neutral Tweets with positive and negative Tweets. Compared to the
+                    Random Forest Classifier,
+                    which achieved approximately 55% accuracy, GPT-3 had higher accuracy in classifying all sentiment
+                    classes.
+                    <br>
+                    <img src="assets/img/result/cm_normalized_s.png" alt="...">
+                    <img src="assets/img/result/cm_normalized_s_ml.png" alt="...">
 
                 </p>
             </div>
         </div>
     </section>
 
-      <!-- Discussion -->
-      <section class="page-section" id="discussion">
+    <!-- Discussion -->
+    <section class="page-section" id="discussion">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Discussion</h2>
@@ -348,9 +369,15 @@
                     <h4 class="my-3">Our Project</h4>
                     <p class="text-muted">
 
-                        The application of LLMs to this particular topic generated measures that fell short of our expectations, and of our Quarter 1 results. Despite continuous engineering of the prompt, we were not able to match our original statistics in classifying relevance nor achieve high accuracy in classifying sentiment; however, the process of using an LLM like GPT-3 revealed clearly that these tools definitely have their place in this field. 
+                        The application of LLMs to this particular topic generated measures that fell short of our
+                        expectations, and of our Quarter 1 results. Despite continuous engineering of the prompt, we
+                        were not able to match our original statistics in classifying relevance nor achieve high
+                        accuracy in classifying sentiment; however, the process of using an LLM like GPT-3 revealed
+                        clearly that these tools definitely have their place in this field.
 
-                        In conversing with the UCSD China Data Lab over the course of the last 10 weeks, our work has been helpful in determining whether they will move forward with using LLMs throughout the future stages of their Twitter analysis projects.
+                        In conversing with the UCSD China Data Lab over the course of the last 10 weeks, our work has
+                        been helpful in determining whether they will move forward with using LLMs throughout the future
+                        stages of their Twitter analysis projects.
 
                     </p>
                 </div>
@@ -365,9 +392,15 @@
                     <h4 class="my-3">Limitations & Future </h4>
                     <p class="text-muted">
 
-                        Looking at the overall performance of the GPT-3 language models, and even at the supervised ML pathways from earlier, it's easy to see that this is a difficult task no matter what tools we use. Human interpretation of text is so influenced by preexisting biases, contexts, and other factors that cannot be modeled, and the strange Internet-affected language of Twitter only contributes to this further. 
+                        Looking at the overall performance of the GPT-3 language models, and even at the supervised ML
+                        pathways from earlier, it's easy to see that this is a difficult task no matter what tools we
+                        use. Human interpretation of text is so influenced by preexisting biases, contexts, and other
+                        factors that cannot be modeled, and the strange Internet-affected language of Twitter only
+                        contributes to this further.
 
-                        Because of LLMs' ability to comprehend text in its own context, outside the purview of 'trainign data', it is worth considering shifting away from a simple classification & sentiment analysis, and to utilize the full power of these models for deeper textual analysis. 
+                        Because of LLMs' ability to comprehend text in its own context, outside the purview of 'trainign
+                        data', it is worth considering shifting away from a simple classification & sentiment analysis,
+                        and to utilize the full power of these models for deeper textual analysis.
 
                     </p>
                 </div>
@@ -380,11 +413,16 @@
                     </span>
 
                     <h4 class="my-3">The Models</h4>
-                    <p class="text-muted"> 
+                    <p class="text-muted">
 
-                        Large Language Models are undoubtedly the future of language modeling and analysis. Their incredible power, ease-of-use, and high quality outputs put them far ahead of any other traditional NLP methodology. However, that does not mean simply tossing out what's been done before and trusting GPT-3 to always get the solution. As our project shows, GPT-3 is not always ready to bridge the gap resulting from natural differences in human interpretation and context.
+                        Large Language Models are undoubtedly the future of language modeling and analysis. Their
+                        incredible power, ease-of-use, and high quality outputs put them far ahead of any other
+                        traditional NLP methodology. However, that does not mean simply tossing out what's been done
+                        before and trusting GPT-3 to always get the solution. As our project shows, GPT-3 is not always
+                        ready to bridge the gap resulting from natural differences in human interpretation and context.
 
-                        Subject matter expertise and domain knowledge are and will remain absolutely key to getting the best out of these models. 
+                        Subject matter expertise and domain knowledge are and will remain absolutely key to getting the
+                        best out of these models.
 
                     </p>
                 </div>
@@ -392,14 +430,56 @@
         </div>
     </section>
 
+    <section class="page-section bg-light" id="material">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Project Material</h2>
+                <h3 class="section-subheading text-muted">Our Deliverables</h3>
+            </div>
+            <div class="row text-center">
+
+                <div class='flex-container'>
+                    <div class='flex-item'>
+                        <h4>Report</h4>
+                        <p class='text-muted'> Our published paper with more information.</p>
+                        <span class="fa-stack fa-4x">
+                            <a href="assets/deliverables/report.pdf">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-copy fa-stack-1x fa-inverse"></i></a>
+                        </span>
+                    </div>
+
+                    <div class='flex-item'>
+
+                        <h4>Poster</h4>
+                        <p class='text-muted'>Our showcase poster for presentation.</p>
+                        <span class="fa-stack fa-4x">
+                            <a href="assets/deliverables/poster.png">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-microphone fa-stack-1x fa-inverse"></i></a>
+                        </span>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+
+    </section>
+
     <!-- Team-->
-    <section class="page-section bg-light" id="team">
+    <section class="page-section" id="team">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Our Team</h2>
                 <h3 class="section-subheading text-muted">Meet our Team!</h3>
             </div>
-            <div class = 'flex-container'>
+            <div class='flex-container'>
                 <div class="flex-item">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/team/gokul.jpg" alt="..." />
@@ -421,7 +501,7 @@
                     </div>
                 </div>
             </div>
-            <div class = 'flex-container'>
+            <div class='flex-container'>
                 <div class="flex-item">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/team/roberts.jpeg" alt="..." />
@@ -440,7 +520,7 @@
         </div>
     </section>
 
-   
+
     <!-- Footer-->
     <footer class="footer py-4">
         <div class="container">
@@ -449,7 +529,7 @@
                 <div class="col-lg-4 my-3 my-lg-0">
 
                     <script>
-                        function about(){
+                        function about() {
                             alert(
                                 'This website was made as a public-facing accompaniment to the work done by Annie Fan and Gokul Prasad for the DSC180b course at UC San Diego. You can see the codebase for the work represented here by clicking on the GitHub icon at the bottom of the page! Thank you for visiting. '
                             );
@@ -461,7 +541,7 @@
                         aria-label="Github"><i class="fab fa-github"></i></a>
                 </div>
                 <div class="col-lg-4 text-lg-end">
-                    <a class="link-dark text-decoration-none me-3" href = "#!" onclick="about()">About This Site</a>
+                    <a class="link-dark text-decoration-none me-3" href="#!" onclick="about()">About This Site</a>
                 </div>
             </div>
         </div>
@@ -480,8 +560,10 @@
                                 <!-- Project details-->
                                 <h2 class="text-uppercase">Relevance Distribution</h2>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/eda/relevance.png" alt="..." />
-                                <p class="text-muted"> 
-                                    The figure shows the distribution of relevant and irrelevant Tweets about China in the original dataset. The number of 'Relevant' tweets (demarcated 'True') is over twice the number of 'Irrelevant' Tweets, reflecting a class imbalance. 
+                                <p class="text-muted">
+                                    The figure shows the distribution of relevant and irrelevant Tweets about China in
+                                    the original dataset. The number of 'Relevant' tweets (demarcated 'True') is over
+                                    twice the number of 'Irrelevant' Tweets, reflecting a class imbalance.
                                 </p>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
@@ -509,13 +591,16 @@
                                 <h2 class="text-uppercase">Sentiment Distribution</h2>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/eda/sentiment.png" alt="..." />
                                 <p class="text-muted">
-                                    The figure shows the distribution of sentiment scores toward China in the original dataset. The sentiment scores are in range from 1 to 5 (1 = very negative, 3 = neutral, 5 = very positive). Tweets with sentiment score 0 and 6 are outliers. We can see that negative Tweets, scoring < 3 are represented far more than Tweets that score more positive. 
-                                </p>
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-xmark me-1"></i>
-                                    Close
-                                </button>
+                                    The figure shows the distribution of sentiment scores toward China in the original
+                                    dataset. The sentiment scores are in range from 1 to 5 (1 = very negative, 3 =
+                                    neutral, 5 = very positive). Tweets with sentiment score 0 and 6 are outliers. We
+                                    can see that negative Tweets, scoring < 3 are represented far more than Tweets that
+                                        score more positive. </p>
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                            type="button">
+                                            <i class="fas fa-xmark me-1"></i>
+                                            Close
+                                        </button>
                             </div>
                         </div>
                     </div>
@@ -535,11 +620,16 @@
                             <div class="modal-body">
                                 <!-- Project details-->
                                 <h2 class="text-uppercase">Sentiment Over Time</h2>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/eda/sentiment_by_time.png" alt="..." />
+                                <img class="img-fluid d-block mx-auto" src="assets/img/eda/sentiment_by_time.png"
+                                    alt="..." />
                                 <p class="text-muted">
-                                    This plot shows how the general sentiment towards China has varied across the time period in the data (2010-20) by party. Most notably, it is nearly consistently negative, with the Democrats in 2015 having the highest average sentiment still falling below 3.0. This also helps to explain why negative Tweets dominate the dataset. 
+                                    This plot shows how the general sentiment towards China has varied across the time
+                                    period in the data (2010-20) by party. Most notably, it is nearly consistently
+                                    negative, with the Democrats in 2015 having the highest average sentiment still
+                                    falling below 3.0. This also helps to explain why negative Tweets dominate the
+                                    dataset.
                                 </p>
-                                
+
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
@@ -564,11 +654,16 @@
                             <div class="modal-body">
                                 <!-- Project details-->
                                 <h2 class="text-uppercase">Tweet Count by State</h2>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/eda/TweetsByState.png" alt="..." />
-                                <p class = 'text-muted'>
-                                    Here, we see which U.S. states are most represented in our dataset. We note that among the most represented are the most populous -- Texas, California, Florida, etc. 
+                                <img class="img-fluid d-block mx-auto" src="assets/img/eda/TweetsByState.png"
+                                    alt="..." />
+                                <p class='text-muted'>
+                                    Here, we see which U.S. states are most represented in our dataset. We note that
+                                    among the most represented are the most populous -- Texas, California, Florida, etc.
 
-                                    However, we also note that there is a strong Republican presence in the dataset, which also helps to explain the overwhelming negative Tweet count, as the Republican party has been consistently negative in their attiude towards China across the dataset's timeframe. 
+                                    However, we also note that there is a strong Republican presence in the dataset,
+                                    which also helps to explain the overwhelming negative Tweet count, as the Republican
+                                    party has been consistently negative in their attiude towards China across the
+                                    dataset's timeframe.
                                 </p>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
@@ -603,7 +698,7 @@
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
-                                    Close 
+                                    Close
                                 </button>
                             </div>
                         </div>
